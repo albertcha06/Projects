@@ -1,0 +1,66 @@
+*{
+    background-color: lightgray;
+}
+/* Header */
+.head{
+    display: flex;
+    flex-wrap:wrap
+}
+
+
+nav li {
+    display: inline-block;
+}
+nav a {
+    padding: 5px 35px;
+    text-decoration: none;
+    color: black;
+  }
+#header-img{
+    max-width: 30% ;
+    height: auto;
+}
+
+/* Email */
+#heading{
+    text-align: center;
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#email{
+    background-color: white;
+    border: 1px black solid;
+    width: 250px;
+    height: 1.8em
+}
+#email-button{
+    margin-top: 10px;
+    background-color: yellow;
+    padding: 5px 15px;
+    border: none;
+    font-weight: 1000;
+}
+/* Prem-FastShip-Qual */
+.info {
+    display: flex;
+    padding: 20px;
+}
+.fa {
+    color: orange;
+}
+.descrip {
+    margin-left: 80px;;
+}
+.premium-materials {
+    margin-left: 100px;
+}
+.video {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

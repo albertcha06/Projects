@@ -1,0 +1,54 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Trombones!</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="styles.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        </head>
+        <body>
+            <header id="header">
+                <nav class="head">
+                    <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"/>
+                <nav id="nav-bar">
+                    <ul>
+                   <li> <a href="#" class="nav-link">Features</a></li>
+                   <li> <a href="#" class="nav-link">How It Works</a></li>
+                    <li> <a href="#" class="nav-link">Pricing</a></li>
+                </ul>
+            </nav>
+        </nav>
+            </header>
+            <main>
+                <h2 id="heading">Handcrafted, home-made masterpieces</h2>
+            <div class="container">
+                <input id="email" type="email" placeholder="Enter your email address"/>
+                <button id="email-button">GET STARTED</button>
+            </div>
+            
+                <div class="info">
+                    <i class="fa fa-3x fa-fire"></i>
+                <div class="premium-materials descrip"> 
+                    <span><strong>Premium Materials</strong></br>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</span>
+                </div>
+            </div>
+            <div class="info">
+                <i class="fa fa-3x fa-truck"></i>
+                <div class="Fast-Shipping descrip">
+                    <span><strong>Fast Shipping</strong> </br>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</span>
+                </div>
+                </div>
+                <div class="info">
+                    <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                <div class="quality-assurance descrip">
+                    <span><strong>Quality Assurance</strong> </br>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</span>
+                </div>
+            </div>
+            <div class="video">
+                <video controls>
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </video>
+            </div>
+            </main>
+        </body>
+    </html>
